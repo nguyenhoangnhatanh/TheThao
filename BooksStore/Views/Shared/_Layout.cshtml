@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Shop Đồ Thể Thao</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/StyleSheet.css" />
+
+</head>
+<body>
+    <div>
+        <div class="bg-lime text-black p-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col navbar-brand">Shop Đồ Thể Thao</div>
+                    <div class="col-6 text-right">
+                        <vc:cart-summary />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-1 p-1">
+            <div id="genres" class="col-3">
+                <p class="info">
+                    CHUYÊN CUNG CẤP CÁC ĐỒ THỂ THAO CAO CẤP
+                </p>
+                <vc:genre-navigation />
+            </div>
+            <div class="col-9">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+</html>

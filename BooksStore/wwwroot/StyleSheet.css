@@ -1,0 +1,51 @@
+﻿.text-black {
+    color: black;
+    font-weight: bold;
+}
+.bg-lime {
+    background-color: lime;
+}
+p.info {
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: darkseagreen;
+    color: black;
+}
+body {
+    background-image: url("https://media.thethao247.vn/upload/hungtm/2018/04/10/ket-qua-bong-da-hom-nay-ngay-10-41523313554.jpg")
+    
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: skyblue;
+}
+.badge-primary {
+    color: black;
+    background-color: red;
+}
+.col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    background-color: skyblue;
+    padding-top: 10px;
+    height: 250px;
+}
+.btn-outline-primary {
+    color: black;
+    border-color: black;
+    background: white;
+    font-weight: 600;
+}
+.btn-outline-primary:hover {
+    color: white;
+    border-color: white;
+    background: black;
+    font-weight: 600;
+}
+

@@ -1,0 +1,31 @@
+﻿@inherits LayoutComponentBase
+<div class="bg-info text-white p-2">
+    <a href="/" ><span class="navbar-brand ml-2">Administration</span></a>
+</div>
+<div class="container-fluid">
+    <div class="row p-2">
+        <div class="col-3">
+            <NavLink class="btn btn-outline-primary btn-block"
+                     href="/admin/books"
+                     ActiveClass="btn-primary text-white"
+                     Match="NavLinkMatch.Prefix">
+                Sản phẩm
+            </NavLink>
+            <NavLink class="btn btn-outline-primary btn-block"
+                     href="/admin/orders"
+                     ActiveClass="btn-primary text-white"
+                     Match="NavLinkMatch.Prefix">
+                Đơn đặt hàng
+            </NavLink>
+            <NavLink class="btn btn-outline-primary btn-block"
+                     href="/HOME/INDEX"
+                     ActiveClass="btn-primary text-white"
+                     Match="NavLinkMatch.Prefix">
+                Trang chủ
+            </NavLink>
+        </div>
+        <div class="col">
+            @Body
+        </div>
+    </div>
+</div>
